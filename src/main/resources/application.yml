@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3336/fastival?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    password: root4321
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+#        show-sql: true
+        ddl-auto: update
+server:
+  port: 8888
